@@ -1,0 +1,41 @@
+Tables de hachage
+
+
+Try :
+	....
+except Exception :
+	print(...
+....
+
+
+mon_dic={"Duval" : 12, "Michel" : 89, "Jan" : 45 }
+
+"Duval" in mon_dic
+
+mon_dic["Duval"]+=1
+
+for cle, valeur in mon_dic.items() :
+    print({cle})
+
+for cle, valeur in mon_dic.items():
+    print(f"{cle} , {valeur}")
+
+s=set() #sinon ca fait un dict
+ensemble = {'red', 'blue', 'red', '12', '3.14'}
+ensemble.add(True)
+'red' in ensemble
+ensemble2 = {'red', 'blue'}
+ensemble2.remove('red')
+ensemble2.discard('red')
+for i in ensemble :
+    print(i)
+    
+ensemble.intersection(ensemble2)
+
+
+L1 = [1, 2, 3]
+L2 = L1
+L3 = [1, 2, 3]
+print('avec ==', L1 == L2, L1 == L3)
+print('avec is', L1 is L2, L1 is L3)
+is met True qd la liste est une copie mais pas si c'est la mm qui a étée créee en para
